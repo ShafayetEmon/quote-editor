@@ -75,7 +75,7 @@ group :development do
   gem 'capistrano-rails'
   gem 'capistrano-bundler'
   gem 'capistrano-rbenv'
-  gem "capistrano-puma"
+  gem 'capistrano3-puma'
 end
 
 group :test do
