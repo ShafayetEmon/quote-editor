@@ -81,6 +81,6 @@ test:
 #
 production:
   <<: *default
-  database: quote_editor_development
-  username: ubuntu
+  database: quote_editor_production
+  username: quote_editor
   password: 123
