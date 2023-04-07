@@ -75,7 +75,7 @@ group :development do
   gem 'capistrano-rails'
   gem 'capistrano-bundler'
   gem 'capistrano-rbenv'
-  gem "capistrano3-puma"
+  gem "capistrano3-puma", "4.0.0"
   gem 'capistrano-yarn'
 end
 
