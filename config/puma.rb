@@ -41,5 +41,3 @@ pidfile ENV.fetch("PIDFILE") { "tmp/pids/server.pid" }
 
 # Allow puma to be restarted by `bin/rails restart` command.
 plugin :tmp_restart
-shared_path = "/home/rizwan/Downloads/project/quote-editor"
-bind "unix://#{shared_path}/tmp/sockets/quote-edior-puma.sock"
