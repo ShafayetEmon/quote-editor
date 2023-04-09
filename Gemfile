@@ -70,12 +70,12 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
-
+  gem 'spring'
   gem 'capistrano'
-  gem 'capistrano-rails'
-  gem 'capistrano-bundler'
   gem 'capistrano-rbenv'
-  gem "capistrano3-puma", "4.0.0"
+  gem 'capistrano-rails'
+  gem 'capistrano3-puma'
+  gem 'capistrano-bundler'
   gem 'capistrano-yarn'
 end
 
