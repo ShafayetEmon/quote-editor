@@ -35,7 +35,7 @@ require "capistrano/rails/migrations"
 # require "capistrano/passenger"
 require 'capistrano/puma'
 install_plugin Capistrano::Puma
-#install_plugin Capistrano::Puma::Daemon
+install_plugin Capistrano::Puma::Daemon
  
 
 # Load custom tasks from `lib/capistrano/tasks` if you have any defined
