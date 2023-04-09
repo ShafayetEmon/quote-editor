@@ -2,7 +2,7 @@
 lock "~> 3.17.2"
 
 set :application, "quote-editor"
-set :repo_url, 'git remote set-url origin https://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@github.com/ShafayetEmon/quote-editor.git'
+set :repo_url, 'https://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@github.com/ShafayetEmon/quote-editor.git'
 set :deploy_to, '/home/ubuntu/quote-editor'
 set :use_sudo, true
 set :branch, 'main'
